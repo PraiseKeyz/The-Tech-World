@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: aqua;
+}
+.cal-body {
+    height: 600px;
+    width: 330px;
+    background-color: rgb(8, 8, 8);
+    margin-left: 300px;
+    margin-top: -20px;
+    border-radius: 20px;
+    border-color: white;
+}
+.result_output {
+    color: white;
+    padding-top: 70px;
+    padding-left: 150px;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+span {
+    display: flex;
+    margin-top: -30px;
+    margin-left: -18px;
+}
+.btn-body {
+    padding-left: 15px;
+}
+.btn-0 {
+    border: none;
+    height: 60px;
+    width: 150px;
+    background-color: rgb(60, 60, 61);
+    margin-top: 40px;
+    color: white;
+    border-radius: 40px;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+}
+button {
+    border: none;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(60, 60, 61);
+    margin-top: 40px;
+    color: white;
+    border-radius: 50%;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.minus {
+    background-color: rgb(247, 178, 29);
+}
+.addition {
+    background-color: rgb(247, 178, 29); 
+}
+.equal {
+    background-color: rgb(247, 178, 29);
+}
+.divide {
+    background-color: rgb(247, 178, 29);
+}
+.multiply {
+    background-color: rgb(247, 178, 29);
+}
+h1[id="hInput"] {
+    color: azure;
+    font-size: 80px;
+    padding-top: 130px;
+    margin-bottom: -30px;
+    text-align: right;
+    clip-rule: evenodd;
+    height: 100px;
+}
+input {
+    font-size: 100px;
+    cursor: #fff;
+    background: transparent;
+    height: 50px;
+    margin: 10px;
+    border: 0;
+    outline: 0;
+    display: flex;
+    padding-top: 100px;
+    color: #fff;
+    width: 100px;
+    align-items: right;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calpraise.css">
+    <link rel="stylesheet" href="Calpraise.js">
+    <title>My Cal.</title>
+</head>
+<body>
+   <div class="cal-body">
+    <h1 id="hInput"></h1>
+    <div class="btn-body">
+        <span class="row-4">
+            <button class="btn_ac" onclick="myFunctionA()">AC</button>
+            <button id="button" onclick="myFunctionB()">Del</button>
+            <button id="button" onclick="myFunctionC()">%</button>
+            <button class="divide" onclick="myFunctionJ()">/</button>
+        </span>
+        <span class="row-3">
+            <button id="button" onclick="myFunction7()">7</button>
+            <button id="button" onclick="myFunction8()">8</button>
+            <button id="button" onclick="myFunction9()">9</button>
+            <button class="multiply" onclick="myFunctionH()">&times;</button>
+        </span>
+        <span class="row-2">
+            <button id="button" value="4" onclick="myFunction4()">4</button>
+            <button id="button" onclick="myFunction5()">5</button>
+            <button id="button" onclick="myFunction6()">6</button>
+            <button class="minus" onclick="myFunctionG()">-</button>
+        </span>
+        <span class="row-1">
+            <button onclick="myFunction1()" id="button">1</button>
+            <button onclick="myFunction2()" id="button">2</button>
+            <button onclick="myFunction3()" id="button">3</button>
+            <button class="addition" onclick="myFunctionF()">+</button>
+        </span>
+        <span class="row-0">
+            <button onclick="myFunction0()" class="btn-0">0</button>
+            <button class="dot" onclick="myFunctionD()">.</button>
+            <button class="equal" onclick="myFunctionE()">=</button>
+        </span>
+    </div>
+   </div> 
+   <script src="Calpraise.js"></script>
+</body>
+</html>
