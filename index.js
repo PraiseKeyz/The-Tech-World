@@ -49,7 +49,7 @@ function myFunctionC() {
     output.innerHTML += "%";
 }
 function myFunctionD() {
-    output.innerHTML += parseFloat(".");
+    output.innerHTML += '.';
 }
 function myFunctionE() {
     var result = eval(output.innerHTML);
