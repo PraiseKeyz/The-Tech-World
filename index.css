@@ -89,3 +89,13 @@ input {
     width: 100px;
     align-items: right;
 }
+@media only screen and (max-width:500px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    .cal-body {
+        margin-left: 80px;
+        margin-top: -20px;
+    }
+}
