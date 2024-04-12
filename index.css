@@ -74,6 +74,7 @@ h1[id="hInput"] {
     text-align: right;
     clip-rule: evenodd;
     height: 100px;
+    overflow: hidden;
 }
 input {
     font-size: 100px;
